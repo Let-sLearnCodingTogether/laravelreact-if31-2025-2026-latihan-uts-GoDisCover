@@ -62,7 +62,8 @@ export default function UpdateQuote() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto border border-4 p-5 m-5 rounded-2xl">
+        <h1 className="font-bold text-3xl mb-6">Update Quote</h1>
       <form onSubmit={onSubmit}>
         <div className="space-y-3">
           <Input

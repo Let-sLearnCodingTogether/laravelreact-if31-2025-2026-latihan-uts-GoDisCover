@@ -45,7 +45,8 @@ export default function CreateNewQuote() {
     };
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto border border-4 p-5 m-5 rounded-2xl" >
+            <h1 className="font-bold text-3xl mb-6">Create Quote</h1>
             <form onSubmit={onSubmit}>
                 <div className="space-y-3">
                     <Input id={useId()} name="quote" value={form.quote} onChange={handleOnChange} label="Quote" placeholder="Isi kutipan..." />
