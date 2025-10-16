@@ -9,3 +9,5 @@ Route::apiResource('quotes', QuoteController::class);
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
+
+Route::get('')
